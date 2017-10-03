@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url("/fonts/pt-sans-regular.ttf") format("ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("/fonts/pt-sans-bold.ttf") format("ttf");
+    font-weight: bold;
+}

@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body {
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -43,10 +49,12 @@ footer {
 
 .logo__description {
     font-weight: 700;
+    font-size: 35px;
+    letter-spacing: -4px;
     text-transform: uppercase;
 }
 
-.navigation__menu>ul {
+.navigation__menu > ul {
     display: flex;
     list-style: none;
 }
