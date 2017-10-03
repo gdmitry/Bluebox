@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -32,7 +32,7 @@ header {
 main {
     background: yellow;
     flex: 1;
-    height: 0;
+    height: 0; /* prevent flex to shrink if there is no content */
     overflow: auto;
 }
 
@@ -45,6 +45,13 @@ footer {
 .slider__container {
     height: 500px;
     background: blue;
+}
+
+.slider__container > li {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: pink;
 }
 
 .logo__description {
