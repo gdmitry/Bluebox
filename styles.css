@@ -52,35 +52,20 @@ footer {
     display: flex;
     position: relative;
     height: 500px;
-    background: blue;
     overflow: hidden;
 }
 
-.slider__container > li {
+.slider__container > img {
     position: absolute;
     top: 0;
     height: 100%;
-    min-width: 100%;
-    background: pink;
     left: 100%;
     transition: none;
 }
 
-.slider__container > li.active {
+.slider__container > img.active {
     transition: left 0.2s linear;
     left: 0;
-}
-
-.slider__container > li:nth-child(1) {
-    background: yellow;
-}
-
-.slider__container > li:nth-child(2) {
-    background: green;
-}
-
-.slider__container > li:nth-child(3) {
-    background: violet;
 }
 
 .logo__description {
