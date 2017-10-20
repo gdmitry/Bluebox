@@ -15,8 +15,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     margin: 0 auto;
-    width: 100%;
-    background: grey;
+    width: 1400px;
 }
 
 header {
@@ -36,7 +35,6 @@ header > div {
 }
 
 main {
-    background: yellow;
     flex: 1;
     height: 0; /* prevent flex to shrink if there is no content */
     overflow: auto;
@@ -50,6 +48,8 @@ footer {
 
 .slider__container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     position: relative;
     height: 500px;
     overflow: hidden;
@@ -66,6 +66,28 @@ footer {
 .slider__container > img.active {
     transition: left 0.2s linear;
     left: 0;
+}
+
+.works__areas {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 200px;
+}
+
+.works__areas .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works__areas .item .title {
+    font-size: 24px;
+}
+
+.works__areas .item .action {
+    text-transform: uppercase;
+    color: #00b7ff;
+    font-size: 16px;
 }
 
 .logo__description {
@@ -92,10 +114,16 @@ footer {
 }
 
 .search__input {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width:  130px;
-    height: 30px;
-    background: green;
+   width: 130px;
+   height: 30px;
+   box-sizing: border-box;
+   border: none;
+   background: #f1f3f6;
 }
+
+.search__input::after {
+    content:'';
+    width:10px;
+    height:10px;
+    background: red;
+ }
