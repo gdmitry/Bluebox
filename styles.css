@@ -46,6 +46,9 @@ footer {
     width: 100%;
 }
 
+/**
+ * Slider
+ */
 .slider__container {
     display: flex;
     flex-direction: row;
@@ -68,6 +71,9 @@ footer {
     left: 0;
 }
 
+/**
+ * Competency
+ */
 .works__areas {
     display: flex;
     justify-content: space-between;
@@ -90,6 +96,9 @@ footer {
     font-size: 16px;
 }
 
+/**
+ * Navigation
+ */
 .logo__description {
     font-weight: 700;
     font-size: 35px;
@@ -113,6 +122,26 @@ footer {
     border: none;
 }
 
+/**
+ * Portfolio
+ */
+.works__portfolio {
+
+}
+
+.works__portfolio .pic {
+    width: 300px;
+    height: 300px;
+}
+
+.works__portfolio .pic .controls {
+    width: 100%;
+    height: 100%;
+}
+
+ /**
+  * Search input
+  */
 .search__input {
    width: 130px;
    height: 30px;
