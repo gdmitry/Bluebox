@@ -21,10 +21,10 @@ var slides = q('.slider__container > img');
 // Run slide show
 var i = 0;
 setActiveSlide(i);
-setInterval(() => {
-    (i >= slides.length - 1) ? i = 0 : i++;
-    setActiveSlide(i);
-}, 3000);
+// setInterval(() => {
+//     (i >= slides.length - 1) ? i = 0 : i++;
+//     setActiveSlide(i);
+// }, 3000);
 
 function setActiveSlide(i) {
     slides.forEach(s => s.classList.remove('active'));
