@@ -126,7 +126,8 @@ footer {
  * Portfolio
  */
 .works__portfolio {
-
+    background: #e2e7ed;
+    padding: 55px 0 0 55px;
 }
 
 .works__portfolio .pic {
@@ -145,9 +146,15 @@ footer {
 .search__input {
    width: 130px;
    height: 30px;
-   box-sizing: border-box;
    border: none;
+   box-sizing: border-box;
    background: #f1f3f6;
+   border: 1px solid transparent;
+}
+
+.search__input:focus {
+    outline: none;
+   border-color: red;
 }
 
 .search__input::after {
