@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none;
 }
@@ -145,12 +140,21 @@ footer {
  */
 .works__portfolio {
     background: #e2e7ed;
-    padding: 55px 0 0 55px;
+    padding: 55px 190px 90px 190px;
+}
+
+.works__portfolio .title {
+    font-size: 30px;
+    color: #626262;
 }
 
 .works__portfolio .pic {
     width: 300px;
     height: 300px;
+}
+
+.portfolio_pics {
+    display: flex;
 }
 
 .works__portfolio .pic .controls {

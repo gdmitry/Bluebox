@@ -1,3 +1,4 @@
-@import 'fonts.css';
-@import 'styles.css';
-@import 'responsive.css';
+@import 'styles/normalize.css';
+@import 'styles/fonts.css';
+@import 'styles/styles.css';
+@import 'styles/responsive.css';
